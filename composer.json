@@ -1,0 +1,6 @@
+{
+    "require": {
+        "firebase/token-generator": "^3.0",
+        "mercadopago/dx-php": "dev-master"
+    }
+}

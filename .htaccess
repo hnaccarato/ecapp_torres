@@ -1,0 +1,5 @@
+RewriteEngine on
+Options -Indexes
+RewriteCond $1 !^(index\.php|access|upload|firebase-messaging-sw.js|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^(.*)$ ./index.php?/$1 [L]
