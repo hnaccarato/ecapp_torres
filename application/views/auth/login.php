@@ -64,11 +64,7 @@
                                                     <div class="col-xs-12">
                                                         <h2><?=lang('login_heading');?></h2>
                                                         <p><?=lang('login_subheading');?></p>
-                                                        <div id="infoMessage"><?=$message;
-                                                        echo '<pre>';
-                                                            print_r($_SESSION);
-                                                        echo '</pre>';
-                                                    ?></div>
+                                                        <div id="infoMessage"><?=$message;?></div>
                                                     </div>
                                                     <div class="col-xs-12">
                                                         <div class="form-group">
